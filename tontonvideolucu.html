@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>User Agent Detection</title>
+    <script type="text/javascript">
+      // Mendapatkan user agent dari browser
+      var userAgent = navigator.userAgent;
+    
+      // Menguji apakah user agent menunjukkan bahwa pengguna menggunakan perangkat mobile
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent)) {
+        // Jika user agent menunjukkan bahwa pengguna menggunakan perangkat mobile, arahkan ke situs web mobile
+        window.location.href = "https://heylink.me/superman77/";
+      } else {
+        // Jika user agent tidak menunjukkan bahwa pengguna menggunakan perangkat mobile, arahkan ke situs web desktop
+        window.location.href = "https://www.youtube.com/watch?v=vTXoAs250Q0";
+      }
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
